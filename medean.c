@@ -1,7 +1,8 @@
 #include <stdio.h>
-void main()
+#include<conio.h>
+int main()
 {
-    int a[5],i,j,t;
+    int a[5],i,j,h;
     printf("Enter the three numbers\n");
     for(i=1;i<=3;i++)
     scanf("%d",&a[i]);
@@ -11,7 +12,7 @@ void main()
     for(j=i+1;j<=3;j++){
     if(a[i]>a[j])
     {
-    t=a[i];
+    h=a[i];
     a[i]=a[j];
     a[j]=t;
     }}
